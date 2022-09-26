@@ -16,11 +16,11 @@ public class HelloController {
         return "Hola Mundo que tal vamos!!! Hasta luego!";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public  String bootstrap(){
         return """
                 <!doctype html>
-                <html lang="ar" dir="rtl">
+                <html lang="en">
                   <head>
                     <!-- Required meta tags -->
                     <meta charset="utf-8">
@@ -33,7 +33,7 @@ public class HelloController {
                   </head>
                   <body>
                     <h1>Hola mundo desde Spring Boot!</h1>
-                    <a class =" btn" href = "https://www.google.com"> Google </a>
+                    <a class =" btn" href = "https://www.google.com" > Google </a>
                                 
                     <!-- Optional JavaScript; choose one of the two! -->
                                 
